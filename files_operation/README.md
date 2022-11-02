@@ -35,3 +35,7 @@ the position will be updated into "after the last char we read"<br/>
 use **tell()** to get the position of cursor<br/>
 use **seek()** to set the position of cursor<br/>
 
+## [With](https://github.com/StuAgraricity/python_learning/blob/main/files_operation/with_keyword.py) Keyword
+recommended way to read files<br/>
+the file will be closed automatically<br/>
+the file can't be manipulate outside with block of code<br/>
