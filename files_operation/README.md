@@ -33,7 +33,7 @@ close the file with **close()** method<br/>
 #### File Object attribute:
 - [closed](https://github.com/StuAgraricity/python_learning/blob/main/files_operation/read_files.py) (boolean): true if the file is not open
 
-#### [How to read file by line](https://github.com/StuAgraricity/python_learning/blob/main/files_operation/read_files.py):
+#### [How to read file by line](https://github.com/StuAgraricity/python_learning/blob/main/files_operation/file_by_line.py):
 - read file and use **splitlines()** from the **String**
 - readlines as List
 - readline
