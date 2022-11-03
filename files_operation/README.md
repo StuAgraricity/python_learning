@@ -10,9 +10,10 @@ close the file with **close()** method<br/>
 1. filename (mandatory): Path or location of the file
 2. mode (optional): combination of the first and second letter
   - First char is how the file will be opened
-    - read (default): read-only mode 
-    - write
-    - append
+    - [read (default)](https://github.com/StuAgraricity/python_learning/blob/main/files_operation/read_files.py): read-only mode 
+    - [write](https://github.com/StuAgraricity/python_learning/blob/main/files_operation/write_files.py): write in override mode
+    - [append](https://github.com/StuAgraricity/python_learning/blob/main/files_operation/write_files.py): write in append mode
+    - [read+](https://github.com/StuAgraricity/python_learning/blob/main/files_operation/write_files.py): read and write mode
   - Second char is the type of files
     - text (default): sequence of lines that end with EOL (End Of Line)
     - binary: non-text files 
@@ -28,6 +29,7 @@ close the file with **close()** method<br/>
 - [tell()](https://github.com/StuAgraricity/python_learning/blob/main/files_operation/cursor.py): get the current file position in a file stream
 - [seek()](https://github.com/StuAgraricity/python_learning/blob/main/files_operation/cursor.py): set the current file position in a file stream and return the new position
   - [offset](https://github.com/StuAgraricity/python_learning/blob/main/files_operation/cursor.py): number representing the position to set the current file stream position
+- [write()](https://github.com/StuAgraricity/python_learning/blob/main/files_operation/write_files.py): set text into file stream
 - [close()](https://github.com/StuAgraricity/python_learning/blob/main/files_operation/read_files.py): close the file and set **closed** attribute into **true**
 
 #### File Object attribute:
