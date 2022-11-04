@@ -4,11 +4,11 @@ Python build in Library **csv**
 
 ## [csv](https://github.com/StuAgraricity/python_learning/blob/main/files_csv_operation/csv_read.py) method
 - [reader()](https://github.com/StuAgraricity/python_learning/blob/main/files_csv_operation/csv_read.py): return **file object** which will iterate over lines in the given csvfile<br/>
-  - csvfile(https://github.com/StuAgraricity/python_learning/blob/main/files_csv_operation/csv_read.py) = path or the location of csv file
-  - dialect(optional)e(https://github.com/StuAgraricity/python_learning/blob/main/files_csv_operation/csv_dialect.py) = the type of how csv file will be opened. default value: 'excel'
+  - [csvfile](https://github.com/StuAgraricity/python_learning/blob/main/files_csv_operation/csv_read.py) = path or the location of csv file
+  - [dialect](https://github.com/StuAgraricity/python_learning/blob/main/files_csv_operation/csv_dialect.py)(default='excel') = the type of how csv file will be opened
 - [writer()](https://github.com/StuAgraricity/python_learning/blob/main/files_csv_operation/csv_write.py)
-  - csvfile(https://github.com/StuAgraricity/python_learning/blob/main/files_csv_operation/csv_write.py) = path or the location of csv file
-  - dialect(default='excel')e(https://github.com/StuAgraricity/python_learning/blob/main/files_csv_operation/csv_dialect.py) = the type of how csv file will be opened.
+  - [csvfile](https://github.com/StuAgraricity/python_learning/blob/main/files_csv_operation/csv_write.py) = path or the location of csv file
+  - [dialect](https://github.com/StuAgraricity/python_learning/blob/main/files_csv_operation/csv_dialect.py)(default='excel') = the type of how csv file will be opened.
 - [list_dialect()](https://github.com/StuAgraricity/python_learning/blob/main/files_csv_operation/csv_dialect.py): Return the names of all registered dialects.
 - [register_dialect](https://github.com/StuAgraricity/python_learning/blob/main/files_csv_operation/csv_dialect.py): Register new dialect
   - name: Associate dialect with name
